@@ -1,0 +1,105 @@
+@font-face {
+    font-family: "Pretendard-Regular";
+    src: url("https://cdn.jsdelivr.net/gh/Project-Noonnu/noonfonts_2107@1.1/Pretendard-Regular.woff")
+      format("woff");
+    font-weight: 500;
+    font-style: normal;
+  }
+  .hahmlet-unique {
+    font-optical-sizing: auto;
+    font-weight: 300;
+    font-style: normal;
+    
+  }
+  * {
+    font-family: "Hahmlet", serif;
+  }
+  body {
+    background-color: #fef6ff;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  header {
+    background-color: #f7cdf6;
+    width: 100%;
+  }
+  .header-r {
+    display: flex;
+    h1 {
+      margin-right: 2rem;
+    }
+  }
+  
+  a {
+    text-decoration: none;
+    color: rgb(64, 8, 75);
+  }
+  .big-head {
+    height: 200px;
+    display: flex;
+    /* 중앙 배열 코드 추가 */
+    justify-content: center;
+    align-items: center;
+    margin-left: 3rem;
+    margin-right: 2rem;
+  }
+  .big-head > h1 {
+    margin: 0;
+    padding: 0;
+    font-size: 2rem;
+  }
+  .main-page {
+    /* 중앙 배열 코드 추가 */
+    display: grid;
+    place-items: center;
+  }
+  .introduce_text > p {
+    color: #d28dce;
+    font-family: "Hahmlet", serif;
+    margin-top: 5rem;
+    font-size: 2.0rem;
+    font-weight: 400;
+    line-height: 1.5em; /* 줄 간격을 1.5배로 설정 */
+  }
+  .emphasize {
+    font-family: "Hahmlet", serif;
+    color: #a02b9c;
+    text-shadow: 1px 1px 0 #67105a, 1px 1px 0 #67105a, 1px 1px 0 #67105a,
+      1px 1px 0 #67105a;
+  }
+  img {
+    width: 18rem;
+    /* 이미지 모서리 둥근 정도 추가 */
+    border-radius: 30px
+  }
+  img {
+    margin-top: 60px;
+    /* 이미지 그림자 추가 */
+    }
+  img {
+    margin-bottom: 100px;
+    /* 이미지 그림자 추가 */
+    }
+  img {
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+  }
+  
+  footer {
+    background-color: #f7cdf6;
+    /* 폰트 색 추가 */
+    /* 텍스트 중앙 정렬 추가 */
+    display: flex;
+    justify-content: center;
+    padding: 1em;
+    bottom: 0;
+    position: fixed;
+    width: 100%;
+  }
+  footer {
+    color: rgb(64, 8, 75);
+  }
+  footer > p {
+    font-family: "Hahmlet", serif;
+    font-weight: 800;
+  }
